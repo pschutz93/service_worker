@@ -1,0 +1,28 @@
+{
+  "name": "service_worker",
+  "version": "1.0.0",
+  "description": "A simple app to test the feasibility of a Service Worker cache to enable novel navigation between pages on a static site.",
+  "main": "secure_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pschutz93/service_worker.git"
+  },
+  "keywords": [
+    "serviceworker",
+    "es6"
+  ],
+  "author": "Patrick Schutz",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/pschutz93/service_worker/issues"
+  },
+  "homepage": "https://github.com/pschutz93/service_worker#readme",
+  "dependencies": {
+    "express": "^4.13.1",
+    "https": "^1.0.0",
+    "pem": "^1.7.2"
+  }
+}
